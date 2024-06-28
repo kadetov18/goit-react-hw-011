@@ -1,0 +1,80 @@
+.profile {
+  padding: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.profContainer {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+
+  text-align: center;
+
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
+.profImg {
+  height: 150px;
+
+  background-color: black;
+  border: none;
+  border-radius: 50%;
+}
+
+.profName {
+  font-weight: 600;
+  font-size: 38px;
+  font-family: Arial;
+  line-height: 0.5;
+}
+
+.profText {
+  font-weight: 450;
+  font-size: 32px;
+  line-height: 0.5;
+  letter-spacing: 0.02em;
+
+  color: gray;
+}
+
+.proList {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+
+  font-family: Arial;
+
+  background-color: #d3d3d3;
+  border-top: 2px solid #808080;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.profItem {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  padding: 40px 8px;
+
+  text-align: center;
+
+  border-right: 2px solid #808080;
+}
+
+.proList > li:last-child {
+  border-right: none;
+}
+
+.profTitle {
+  font-size: 28px;
+}
+.profStats {
+  font-size: 28px;
+  font-weight: 700;
+}
